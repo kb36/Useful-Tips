@@ -9,3 +9,9 @@ gsettings set org.gnome.Vino require-encryption false
 or
 
 dconf write /desktop/gnome/remote-access/require-encryption false
+
+
+
+enabling and disabling admin account in windows 10
+net user administrator /active:no
+net user administrator /active:yes
